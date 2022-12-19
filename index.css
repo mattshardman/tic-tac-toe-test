@@ -1,0 +1,21 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  color: white;
+  height: 100px;
+  width: 100px;
+  background: blue;
+  border: black 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
